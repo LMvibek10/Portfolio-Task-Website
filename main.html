@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Task</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9a0ebfbf77.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo ho hai" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#family">Family</a></li>
+                    <li><a href="#portfolio">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="reference.html">Reference</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I am<br><span>Vibek Rana Magar<br>From Kathmandu.</span></h1>
+            </div>
+        </div>
+    </div>
+<!-- ====================ABOUT=================================== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me1.jpg" alt="mero photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, fugiat odit. Error odit quisquam laborum? Voluptates incidunt exercitationem nihil totam cum autem officia repudiandae facere, sequi facilis praesentium alias similique ex provident rerum necessitatibus! Sunt cumque voluptate cum a eum et velit quidem, veniam ipsum! Nesciunt voluptate fugiat ex aspernatur necessitatibus architecto voluptatem. Iste aspernatur omnis voluptates ratione magnam cum ad nisi dolores vel illum culpa vero, praesentium perspiciatis sed dignissimos adipisci necessitatibus iure a excepturi doloremque voluptatibus voluptatum nostrum! Autem veniam soluta asperiores accusamus dolorum? Vitae ipsum libero, vero possimus adipisci tempore officiis minus, eveniet pariatur eos, eligendi cum.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX designer</span><br>Designing Web Interface.</li>
+                            <li><span>Web Development</span><br>Web Development.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-2023</span><br>Web Designer at HattiLand Group</li>
+                            <li><span>2023-ongoing</span><br>Project Manager at Woods Startup pvt. ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SEE</span><br>Kathmandu National School.</li>
+                            <li><span>SLC</span><br>Kathmandu National School</li>
+                            <li><span>Full Stack Development on Python with Django</span><br>Durskishya Education Network</li>
+                            <li><span>BSc(Hons) Computer Science</span><br>Herald College Kathmandu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- =============================Family============================================ -->
+<div id="family">
+    <div class="container">
+        <h1 class="sub-title">My Family</h1>
+        <div class="family-list">
+            <div class="fam">
+                <img src="images/dad.jpg" alt="">
+                <div class="des">
+                    <h3>Father</h3>
+                    <p>He is my Father. His name is Bharat Rana Magar. He is 48 years old. He is a song writer, singer. I call him bobs.</p>
+                </div>
+            </div>
+            <div class="fam">
+                <img src="images/we.jpg" alt="">
+                <div class="des">
+                    <h3>We</h3>
+                    <p>This is a picture of me, my father, and my mother. Last year we went to manakamana and we clicked this photo. We had a fun together.</p>
+                </div>
+            </div>
+            <div class="fam">
+                <img src="images/mom.jpg" alt="">
+                <div class="des">
+                    <h3>Mother</h3>
+                    <p>She is my Mother. Her name is Nirmala Gautam Rana. She is 45 years old. She is a beautician. I call her maa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ===================================hobbies================================ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/app.png" alt="">
+                <div class="layer">
+                    <h3>Mobile App Developing</h3>
+                    <p>I learned web designing. I am fond of learning new things and I also want to develop my skills in mobile app development.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/singing.png" alt="">
+                <div class="layer">
+                    <h3>Singing</h3>
+                    <p>Singing is my hobby since my childhood. I am fond of singing and I love singing.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/travelling.jpg" alt="">
+                <div class="layer">
+                    <h3>Travelling</h3>
+                    <p>Travelling also has been my hobby since my adulthood. I have not travelled much more but I want to travel more and make more memories.</p>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn3">See More</a>
+    </div>
+</div>
+<!-- =========================contact======================= -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>ranavibek098@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+977 9742432498</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100050171732797"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/vibekrana_the"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/the_vibekrana/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/vibek-rana-magar-499530268/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="MyCV.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i> Vibek Rana Magar. Made by Vibek Rana Magar</p>
+    </div>
+</div>
+<!-- ===========================java script================================ -->
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
